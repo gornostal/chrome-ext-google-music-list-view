@@ -15,12 +15,12 @@
     "persistent": false
   },
   "permissions": [
-    "https://play.google.com/music/listen?u=0#/wmp"
+    "https://play.google.com/music/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://play.google.com/music/*"
       ],
       "css": [
         "src/inject/inject.css"
